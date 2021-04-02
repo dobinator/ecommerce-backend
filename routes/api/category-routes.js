@@ -6,8 +6,8 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   Category.findAll({
     include:[Product]
-  }).then((categoryData) =>{
-    res.json(categoryData);
+  }).then((CategoryData) =>{
+    res.json(CategoryData);
   });
     // find all categories
   // be sure to include its associated Products
@@ -19,16 +19,16 @@ router.get('/:id', (req, res) => {
    id: req.params.id
    },
    include:[Product],
-  }).then((categoryData) =>{
-    res.json(categoryData);
+  }).then((CategoryData) =>{
+    res.json(CategoryData);
   });
   
 });
 
 router.post('/',  (req, res) => {
   Category.create (req.body)
-.then((categoryData) =>{
-  res.json(categoryData);
+.then((CategoryData) =>{
+  res.json(CategoryData);
 });
   
 });
@@ -39,8 +39,8 @@ router.put('/:id', (req, res) => {
       id: req.params.id
       },
   })
-  .then((categoryData) =>{
-    res.json(categoryData);
+  .then((CategoryData) =>{
+    res.json(CategoryData);
   });
 
 });
@@ -51,8 +51,8 @@ router.delete('/:id', (req, res) => {
     id: req.params.id
     },
 })
-.then((categoryData) =>{
-  res.json(categoryData);
+.then((CategoryData) =>{
+  res.json(CategoryData);
 });
 })
 
