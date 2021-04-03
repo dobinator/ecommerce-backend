@@ -33,8 +33,9 @@ n/a
 ## Questions
 If you have any questions about the application my Github user name is Dobinator and my email is dobsonemily@gmail.com
 
+Video link to view running of the program: 
 
-
+https://youtu.be/-eKld6YEKYA
 
 
 
