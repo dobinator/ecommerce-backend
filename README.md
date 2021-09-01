@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a simple e-commerce site that introduces the concepts behind the largest section of the electionic industry "internet retail". This application is mainly backend with Express.js API in order use Sequalize which interacts with a MySQL database.
+This application is a simple e-commerce site that introduces the concepts behind the largest section of the electronic industry "internet retail". This application is mainly backend with Express.js API in order use Sequelize which interacts with a MySQL database.
 
 
 ## Index
@@ -22,7 +22,7 @@ The application requires Node.js and MySQL.
 dotenv
 express
 mysql2
-sequalize
+sequelize
 ## Testing
 n/a 
 
