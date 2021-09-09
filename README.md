@@ -1,12 +1,13 @@
 # ecommerce-backend
 
-## Description
+## Overview
 
 This application is a simple e-commerce site that introduces the concepts behind the largest section of the electronic industry "internet retail". This application is mainly backend with Express.js API in order use Sequelize which interacts with a MySQL database.
 
-
 ## Index
 * Installation
+
+* Built with 
 
 * Dependencies
 
@@ -18,6 +19,9 @@ This application is a simple e-commerce site that introduces the concepts behind
 
 ## Installation
 The application requires Node.js and MySQL. 
+## Built with: 
+- HTML
+- 
 ## Dependencies
 dotenv
 express
